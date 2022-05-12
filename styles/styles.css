@@ -1,0 +1,289 @@
+/* variables */
+
+:root {
+  --color: #ffff;
+}
+
+/* header */
+
+header {
+  background-image: url(/img/banner-bg.png);
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+}
+
+header h1 {
+  color: var(--color);
+  font-size: 10vh;
+}
+
+header img {
+  height: 20vh;
+}
+
+header a {
+  color: var(--color);
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin-right: 6rem;
+}
+
+/* nav */
+
+nav {
+  padding: 2vw;
+  background-color: lightgrey;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* section */
+
+section {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+section h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vh;
+  font-size: 8vh;
+}
+
+section p {
+  margin: 4vw;
+  font-size: 25px;
+}
+
+section h3 {
+  margin-left: 4vw;
+  padding: 2vh;
+  font-size: 6vh
+  ;
+}
+
+section .about{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+section .img{
+  width: 10px;
+  height: 10px;
+}
+
+section .accordion-button {
+  width: 50vw;
+  margin: 2vw;
+}
+/* footer */
+
+footer {
+  background-image: url(/img/banner-bg.png);
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color);
+  bottom: 0;
+  margin-top: auto;
+  align-self: flex-end;
+}
+
+footer img {
+  height: 8vh;
+}
+
+/* button  */
+
+.btn1 {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #1a1a1a;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.btn1:disabled {
+  pointer-events: none;
+}
+
+.btn1:hover {
+  color: #fff;
+  background-color: #1a1a1a;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.btn1:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* Table */
+.tableInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 6vh;
+  padding: 5vh;
+  border-radius: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.tableInfo2{
+  color: #1a1a1a;
+}
+
+thead th:nth-child(1) {
+  width: 20%;
+}
+thead th:nth-child(2) {
+  width: 20%;
+}
+thead th:nth-child(3) {
+  width: 20%;
+}
+thead th:nth-child(4) {
+  width: 20%;
+}
+thead th:nth-child(5) {
+  width: 20%;
+}
+th, td {
+  padding: 20px;
+  border: 1px solid rgba(4, 247, 113, 0.805);
+}
+
+thead, tfoot {
+  text-align: center;
+}
+thead th, tfoot th, tfoot td {
+  background:#96be25;
+  font-family: "Source Sans Pro", sans-serif;
+  border: rgba(8, 39, 102, 0.805);
+}
+th {
+  letter-spacing: 2px;
+}
+td {
+  letter-spacing: 1px;
+}
+tbody td {
+  text-align: center;
+}
+tfoot th {
+  text-align: right;
+}
+
+.tableInfo a{
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+}
+
+.contacdate {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Filtros*/
+
+.sfiltros{
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*loyalty*/
+
+.general{
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.general p{
+  margin: 4vw;
+  font-size: 18px;
+}
+
+.general h2{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2vh;
+  font-size: 7vh;
+}
+.general h3 {
+  margin-left: 4vw;
+  padding: 2vh;
+  font-size: 5vh
+  ;
+}
+.container1{
+  display: flex;
+  justify-content:space-between;
+}
+.container1 div{
+  width: 50%;
+}
+.container1 table{
+  width: 50%;
+}
+#table-senate table{
+  width: 100%;
+}
+
+.container2{
+  display: flex;
+  justify-content:space-between;
+}
+
+
+.container2{
+  display: flex;
+  justify-content:space-between;
+}
+.container2 table{
+  margin: 1rem;
+}
+
+
+.titulos{
+  display: flex;
+  justify-content:space-between;
+  font-size: 18px;
+  text-align: center;
+  
+}
